@@ -1,0 +1,258 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+}
+
+#nav {
+	font-size: 22px;
+	line-height: 1em;
+	background-color: #FFFFFF;
+	position: fixed;
+	width: 100%;
+	overflow: hidden;
+}
+#logo {
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 245px;
+}
+#logtex {
+	display:inline-block;
+	padding-right: 120px;
+}
+.opt {
+	padding: 20px 15px 20px 15px;
+	font-size: 13px;
+	color: #0F4C85;
+	text-align: center;
+	display: inline-block;
+}
+
+
+
+/*____________________*/
+#first {
+	color: #FFFFFF;
+	overflow: hidden;
+}
+#inbl2 {
+	background-color: #1E2E7D;
+	padding-top: 63px;
+	background: url("first.webp");
+	width: 100%;
+	height: 800px;
+	overflow: hidden;
+}
+#top {
+	height: 440px;
+	width: 330px;
+	padding-top: 25%;
+	font-size: 42px;
+	letter-spacing: 0.05em;
+	padding-left: 18%;
+	background-color: rgba(0, 48, 91, 0.8);
+	overflow: hidden;
+}
+
+#small {
+	font-size: 18px;
+	letter-spacing: 0.02em;
+}
+
+#inbl3 {
+	display: inline-block;
+	width: 40.9%;
+	height: 600px;
+}
+#top2 {
+	height: 448px;
+	padding-top: 25%;
+	letter-spacing: 0.05em;
+	padding-left: 44%;
+	background-color: rgba(229, 235, 247, 0.7);
+	overflow: hidden;
+	font: normal normal normal 42px/1.4em raleway,sans-serif;
+    color: #00305B;
+
+}
+
+/*___________________________________________*/
+
+/*ul {
+	margin-left: 30px;
+	list-style-type: square;
+}*/
+li {
+	color:#00305B;
+	font: normal normal normal 20px/1.4em 'open sans',sans-serif;
+}
+td {
+	font: normal normal normal 14px/1.4em 'open sans',sans-serif;
+    color: #0F4C85;
+}
+li {font-size:42px;}
+li span {font-size:20px;}
+
+ul {list-style: none;}
+li::before {content: "▪"; color: rgba(65, 183, 196, 1);
+  display: inline-block; width: 1em;
+  margin-left: -1em}
+#left div {
+	margin: 20px;
+}
+#right div {
+	margin:20px;
+}
+#dissl {
+	height: 400px;
+	color: #1D4960;
+	padding-left: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+#left, #right {
+	display: flex;
+	flex-direction:column;
+}
+
+
+/*______________*/
+
+#vis {
+	background-color: #00305B;
+	color: #FFFFFF;
+	
+	text-align: center;
+	padding: 30px;
+	height: 600px;
+}
+#vision {
+	font-size: 42px;
+	padding: 70px;
+}
+#tx {
+	width: 62%;
+	padding-left: 20%;
+	line-height: 1.5em;
+	font-size: 17px;
+}
+#second {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-between;
+}
+#prof {
+	background: #E6EDF3;
+}
+#attr {
+	font-size: 42px;
+	color: #1D4960;
+	padding: 60px;
+	text-align: center;
+	color:#00305B;
+}
+#contain {
+	display: flex;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.profile {
+	padding: 50px;
+	text-align: center;
+}
+
+.name {
+	padding: 2px;
+	color: #0F3345;
+	font-size: 20px;
+}
+
+.part {
+	color: #1C729D;
+	font-size: 18px;
+}
+
+.tel {
+	color:#1D5976;
+}
+
+#inbl4 {
+	
+	color: #FFFFFF;
+	display: flex;
+	background: url("third.webp");
+	width: 100%;
+	height: 656px;
+}
+
+#lastle {
+	height: 516px;
+	width: 350px;
+	padding-top: 10%;
+	font-size: 42px;
+	letter-spacing: 0.05em;
+	padding-left: 18%;
+	background-color: rgba(0, 48, 91, 0.8);
+	overflow: hidden;
+}
+#lstr {
+	line-height: 1.5em;
+	background-color: rgba(0, 48, 107, 0.7);
+	
+	padding-top: 150px;
+	padding-left: 50px;
+	height: 510px;
+}
+#contact {
+	width: 100%;
+}
+#addr {
+	font: normal normal normal 20px/1.4em 'open sans',sans-serif;
+	display: inline-block;
+}
+#click {
+	color: #90D1D8;
+	display: inline-block;
+}
+form {
+	display: flex;
+	flex-direction: row;
+}
+#rightfo {
+	padding: 3px;
+}
+#send {background-color: rgba(65, 183, 196, 1);
+border: 0;
+padding: 2px;
+color:#FFFFFF;
+float:right;}
+#b2top {
+	width: 100%;
+	height: 60px;
+	background-color: #00306B;
+	text-align: center;
+	padding-top: 20px;
+	color: #FFFFFF;
+	font-size: 1em;
+}
+#bott {
+	width: 100%;
+	height: 15px;
+	margin: 40px;
+	font-size: 14px;
+	color: #0F4C85;
+	vertical-align: middle;
+	display: flex;
+	justify-content: space-around;
+}
+#icn, #cpr {
+	display: inline-block;
+}
+input{border: 0px solid rgba(221, 221, 221, 1); padding:2px;}
+textarea {border: 0px solid rgba(221, 221, 221, 1);}
