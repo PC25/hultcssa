@@ -254,5 +254,5 @@ float:right;}
 #icn, #cpr {
 	display: inline-block;
 }
-input{border: 0px solid rgba(221, 221, 221, 1); padding:2px;}
-textarea {border: 0px solid rgba(221, 221, 221, 1);}
+input, textarea{border: 0px solid rgba(221, 221, 221, 1); padding:2px;}
+
