@@ -97,7 +97,7 @@ li {font-size:42px;}
 li span {font-size:20px;}
 
 ul {list-style: none;}
-li::before {content: "▪"; color: rgba(65, 183, 196, 1);
+li::before {content: "\25AA"; color: rgba(65, 183, 196, 1);
   display: inline-block; width: 1em;
   margin-left: -1em}
 #left div {
