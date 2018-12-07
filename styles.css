@@ -4,6 +4,7 @@
 }
 body {
 	font-family: sans-serif;
+	overflow-x: hidden;
 }
 
 #nav {
@@ -61,7 +62,13 @@ body {
 	font-size: 18px;
 	letter-spacing: 0.02em;
 }
-
+#second {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-between;
+	width:100%;
+}
 #inbl3 {
 	display: inline-block;
 	width: 40.9%;
@@ -140,11 +147,8 @@ li::before {content: "\25AA"; color: rgba(65, 183, 196, 1);
 	line-height: 1.5em;
 	font-size: 17px;
 }
-#second {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	align-content: space-between;
+#secondt img {
+	width:100%;
 }
 #prof {
 	background: #E6EDF3;
