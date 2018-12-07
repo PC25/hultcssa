@@ -37,18 +37,17 @@ body {
 #first {
 	color: #FFFFFF;
 	overflow: hidden;
-	background: no-repeat;
 }
 #inbl2 {
 	background-color: #1E2E7D;
 	padding-top: 63px;
-	background: url("first.webp");
+	background: url("first.webp") no-repeat;
 	width: 100%;
-	height: 800px;
+	height: 738px;
 	overflow: hidden;
 }
 #top {
-	height: 440px;
+	height: 378px;
 	width: 330px;
 	padding-top: 25%;
 	font-size: 42px;
