@@ -240,10 +240,13 @@ form {
 	flex-direction: row;
 }
 #rightfo {
-	padding: 3px;
+	padding: 4.3px;
 }
 #rightfo input {
 	cursor: pointer;
+}
+#leftfo input{
+	padding-bottom: 5.3px;
 }
 #send {background-color: rgba(65, 183, 196, 1);
 border: 0;
