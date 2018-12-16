@@ -23,15 +23,21 @@ body {
 #logtex {
 	display:inline-block;
 	padding-right: 120px;
+	color: #00305B;
+	font: normal normal normal 22px/1.4em 'noticia text',serif;
+	cursor: pointer;
 }
-.opt {
+.opt, .opt1 {
 	padding: 20px 15px 20px 15px;
 	font-size: 13px;
 	color: #0F4C85;
 	text-align: center;
 	display: inline-block;
+	cursor: pointer;
 }
-
+.opt:hover {
+	color:#5FADF2;
+}
 
 
 /*____________________*/
@@ -63,7 +69,7 @@ body {
 	letter-spacing: 0.02em;
 }
 #second {
-	display: flex;
+	display: -webkit-flex;
 	flex-direction: row;
 	align-items: center;
 	align-content: space-between;
@@ -73,13 +79,13 @@ body {
 	display: inline-block;
 	width: 40.9%;
 	height: 600px;
+	background-color: rgba(229, 235, 247, 0.7);
 }
 #top2 {
 	height: 448px;
-	padding-top: 25%;
+	padding-top: 22%;
 	letter-spacing: 0.05em;
 	padding-left: 44%;
-	background-color: rgba(229, 235, 247, 0.7);
 	overflow: hidden;
 	font: normal normal normal 42px/1.4em raleway,sans-serif;
     color: #00305B;
@@ -104,25 +110,30 @@ li {font-size:42px;}
 li span {font-size:20px;}
 
 ul {list-style: none;}
-li::before {content: "\25AA"; color: rgba(65, 183, 196, 1);
-  display: inline-block; width: 1em;
-  margin-left: -1em}
+li::before {content: "\25AA"; 
+  color: rgba(65, 183, 196, 1);
+  display: inline-block; 
+  width: 1em;
+  margin-left:-1em
+}
 #left div {
 	margin: 20px;
 }
 #right div {
 	margin:20px;
+	padding-left: 28px;
 }
 #dissl {
 	height: 400px;
 	color: #1D4960;
 	padding-left: 40px;
-	display: flex;
+	display: -webkit-flex;
 	flex-direction: row;
 	align-items: stretch;
+
 }
 #left, #right {
-	display: flex;
+	display: -webkit-flex;
 	flex-direction:column;
 }
 
@@ -161,9 +172,8 @@ li::before {content: "\25AA"; color: rgba(65, 183, 196, 1);
 	color:#00305B;
 }
 #contain {
-	display: flex;
+	display: -webkit-flex;
 	align-items: center;
-	display: flex;
 	justify-content: center;
 }
 .profile {
@@ -189,7 +199,7 @@ li::before {content: "\25AA"; color: rgba(65, 183, 196, 1);
 #inbl4 {
 	
 	color: #FFFFFF;
-	display: flex;
+	display: -webkit-flex;
 	background: url("third.webp");
 	width: 100%;
 	height: 656px;
@@ -223,13 +233,17 @@ li::before {content: "\25AA"; color: rgba(65, 183, 196, 1);
 #click {
 	color: #90D1D8;
 	display: inline-block;
+	cursor: pointer;
 }
 form {
-	display: flex;
+	display: -webkit-flex;
 	flex-direction: row;
 }
 #rightfo {
 	padding: 3px;
+}
+#rightfo input {
+	cursor: pointer;
 }
 #send {background-color: rgba(65, 183, 196, 1);
 border: 0;
@@ -245,6 +259,9 @@ float:right;}
 	color: #FFFFFF;
 	font-size: 1em;
 }
+#bttop {
+	cursor: pointer;
+}
 #bott {
 	width: 100%;
 	height: 15px;
@@ -252,11 +269,17 @@ float:right;}
 	font-size: 14px;
 	color: #0F4C85;
 	vertical-align: middle;
-	display: flex;
+	display: -webkit-flex;
 	justify-content: space-around;
+}
+#wix {
+	cursor: pointer;
 }
 #icn, #cpr {
 	display: inline-block;
 }
+#icn img{
+	cursor:pointer;
+	margin: 2px;
+}
 input, textarea{border: 0px solid rgba(221, 221, 221, 1); padding:2px;}
-
